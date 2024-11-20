@@ -1,0 +1,4 @@
+string s;
+// Đây là một comment
+s := "Hello, world!";
+x := 10 % 3; // Test phép toán phần dư
