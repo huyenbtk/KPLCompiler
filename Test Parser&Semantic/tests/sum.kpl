@@ -5,7 +5,7 @@ VAR
     RESULT: INTEGER;
 
 BEGIN
-    X := 10;
-    Y := 20;
-    RESULT := SUM X,Y,20, X/Y;
+    X := 15;
+    Y := 25;
+    RESULT := SUM(X, Y, 30, X / Y);
 END.

@@ -4,10 +4,12 @@ VAR
     Y: INTEGER;
     Z: INTEGER;
 BEGIN
-    X := 10;
-    Y := 20;
-    Z := 30;
-    X, Y, Z := Y, Z, X;
+    X := 15;
+    Y := 25;
+    Z := 35;
+    X := Y;
+    Y := Z;
+    Z := X;
     CALL WRITEI(X);
     CALL WRITEI(Y);
 END.
